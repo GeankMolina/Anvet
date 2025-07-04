@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Anvet - Asociación de Enfermería</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Anvet</h1>
+        <p>Asociación de Enfermería Humana</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <h2>Sobre Nosotros</h2>
+        <p>Anvet es una asociación dedicada a promover la excelencia en la enfermería humana. Ofrecemos formación, recursos y apoyo a profesionales del sector salud.</p>
+    </section>
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Capacitación en primeros auxilios</li>
+            <li>Charlas de salud comunitaria</li>
+            <li>Red de apoyo profesional</li>
+        </ul>
+    </section>
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form id="contactForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="respuesta"></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Anvet - Asociación de Enfermería</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
